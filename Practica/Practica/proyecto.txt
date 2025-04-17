@@ -1,0 +1,57 @@
+﻿📝 Mandato de Proyecto en C#: "Mini Sistema de Gestión de Tienda"
+🎯 Objetivo General:
+Desarrollar un sistema de consola para la gestión de una tienda virtual, que permita visualizar, agregar, buscar y eliminar productos. El proyecto se dividirá en dos partes: cada desarrollador trabajará en una funcionalidad diferente utilizando bucles, ciclos, arrays y funciones.
+
+🧾 Estructura Inicial del Proyecto (main):
+La rama main contendrá:
+
+El menú principal con opciones.
+
+La estructura base del proyecto (Program.cs, archivos organizados si es necesario).
+
+Llamadas vacías a funciones que luego implementarán Awi y Hiro.
+
+Ejemplo del menú (sin código):
+
+markdown
+Copiar
+Editar
+1. Mostrar inventario
+2. Agregar producto
+3. Buscar producto
+4. Eliminar producto
+5. Salir
+🔧 Tareas por Rama:
+🧑‍💻 Rama: Awi - Módulo de Inventario (Agregar y Mostrar)
+Responsabilidades:
+
+Crear un array (o lista) que almacene productos (nombre, precio, cantidad).
+
+Función para agregar productos al inventario usando bucles para validar que no se repitan.
+
+Función para mostrar todo el inventario en formato de tabla (usando bucles para recorrer el array).
+
+Validaciones simples (no agregar productos vacíos o con cantidades negativas).
+
+Asegúrate de que tus funciones puedan integrarse fácilmente al menú del main.
+
+🧑‍💻 Rama: Hiro - Módulo de Búsqueda y Eliminación
+Responsabilidades:
+
+Función para buscar un producto por nombre y mostrar su información.
+
+Función para eliminar un producto si existe (se puede usar un bucle para encontrarlo y mover el resto del array).
+
+Usar funciones y bucles para recorrer y manipular el array.
+
+Validar que el producto existe antes de eliminarlo o buscarlo.
+
+También asegúrate de que tus funciones puedan conectarse al menú inicial sin conflictos.
+
+✅ Requisitos Técnicos:
+Uso obligatorio de: arrays, bucles, funciones y estructuras condicionales.
+
+Código limpio, comentado, legible.
+
+Cada rama debe compilar por sí sola antes del merge.
+

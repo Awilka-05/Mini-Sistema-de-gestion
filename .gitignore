@@ -1,0 +1,75 @@
+# Archivos generados por el IDE de Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.testsettings
+*.runsettings
+*.cache
+*.dbmdl
+*.VC.db
+*.opensdf
+*.tlog
+*.vspscc
+*.vssscc
+*.vcxproj.user
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+*.vcxproj.filters
+*.vbproj.filters
+*.fsproj.filters
+*.pidb
+*.svclog
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Paquetes NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Archivos de salida de compilación
+*.exe
+*.dll
+*.pdb
+*.winmd
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*_TemporaryKey.pfx
+*.vsix
+*.resources
+
+# Archivos de configuración específicos del usuario
+appsettings.Development.json
+usersecrets.json
+
+# Resultados de pruebas
+TestResults/
+*.trx
+*.coverage
+*.datacollection
+*.coveragexml
+Report.html
+
+# Archivos de caché y temporales del sistema operativo
+Thumbs.db
+.DS_Store
+
+# Archivos de Docker (si aplica)
+docker-compose*.yaml
+.dockerignore
+
+# Carpetas y archivos específicos del desarrollador (opcional)
+*.log
+*.patch
+*.bak
+*.swp
+*.orig
+
+# Otros archivos temporales generados
+*.tmp
